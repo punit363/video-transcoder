@@ -65,5 +65,5 @@ app.post("/upload", upload.single("file"), (req, res, _next) => {
 });
 
 app.listen(8000, () => {
-  console.log("App listening on port 8000...");
+  console.log("App listening on port ",8000);
 });
