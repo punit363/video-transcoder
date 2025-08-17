@@ -33,7 +33,7 @@ app.use(
 );
 
 app.get("/", (req, res, _next) => {
-  console.log("file uploaded");
+  console.log("file upload");
   res.send("hello");
 });
 
