@@ -45,7 +45,7 @@ app.post("/upload", upload.single("file"), (req, res, _next) => {
   const output_path = `./uploads/courses/${lesson_id}`;
   const hls_path = `${output_path}/index.m3u8`;
 
-  console.log(hls_path, "+++++++hlspath");
+  console.log(hls_path, "hlspath");
 
   if (!fs.existsSync(output_path)) {
     fs.mkdirSync(output_path, { recursive: true });
