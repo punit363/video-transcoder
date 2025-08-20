@@ -55,7 +55,7 @@ app.post("/upload", upload.single("file"), (req, res, _next) => {
 
   exec(ffmpegCommand, (error, stdout, stderr) => {
     if (error) {
-      console.log("exec err", error);
+      console.log("exec err---", error);
     }
     console.log("exec stdout", stdout);
     console.log("exec stderr", stderr);
