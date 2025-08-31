@@ -7,7 +7,7 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "znag",
   "license": "ISC",
   "description": "",
   "dependencies": {
